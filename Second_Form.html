@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="HTML For Beginner">
+    <title> Create a Good Form </title>
+
+    <style>
+        body {
+            background: #EFEFEF;
+            font-family: Arial, Tahoma
+        }
+
+        fieldset {
+            background: #FFFF;
+            border: 1px solid #CCC;
+            padding: 10px;
+            margin-Bottom: 20px
+        }
+
+        legend {
+            background: #fff;
+            border: 1px solid #CCC;
+            padding: 5px;
+        }
+
+        label,
+        input,
+        select {
+            display: block;
+        }
+
+        label {
+            margin-bottom: 10px;
+            display :block
+        }
+
+        input {
+            margin-bottom: 1px;
+            padding: 5px;
+            width: 200px
+        }
+        
+    </style>
+</head>
+
+<body>
+    <form name="registration">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label> User Name </label>
+            <input type="text" name="user name">
+            <br>
+            <label> Password </label>
+            <input type="password" name="password">
+            <br>
+            <label>Email </label>
+            <input type="email" name="email">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> Your Favourt</legend>
+            <label>Select Your Favourt : </label>
+            <br>
+            <input type = "radio" name = "Editor"> Visual
+            <input type = "radio" name = "Editor"> NotePad++
+            <input type = "radio" name = "Editor"> Bracket 
+        </fieldset>
+    </form>
+</body>
+
+</html>

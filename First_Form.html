@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title> Hello HTML</title>
+
+    <script>
+        function sayhello
+        {
+            alert("Hello HTML");
+        } 
+    </script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <form name="Register" action="post.php">
+
+        <fieldset>
+            <legend>Personal information</legend>
+            <label> User name </label>
+            <input type="text" name="username" value="" placeholder="Enter name" maxlength="10">
+            <br> <br>
+            <label>Passward </label>
+            <input type="password" name="password" value="" placeholder="Password">
+            <br>
+        </fieldset>
+       
+        <br>
+       
+        <fieldset>
+            <legend> Choose File </legend>
+            <label>Upload Your CV </label>
+            <input type="file" value="choose File">
+            <br>
+            <label>Your Messager </label>
+            <br>
+            <textarea class="our_text" rows=6 cols=50 readonly> You can not Edit it </textarea>
+            <br>
+            <input type="checkbox">
+            <label> Remember me</label>
+            <input type="checkbox"> <label> Not Remember me </label>
+        </fieldset>
+       
+        <br>
+       
+        <fieldset>
+            <legend>Favourt Browser</legend>
+            <label> Choose Your Browser </label>
+            <br>
+            <input type="radio" name="browser" value="Chrome"> Chrome
+            <br>
+            <input type="radio" name="browser" value="Opera"> Opera
+            <br>
+            <input type="radio" name="browser" value="Sparek"> Sparek
+            <br>
+        </fieldset>
+       
+        <br>
+       
+        <fieldset>
+            <legend> Click </legend>
+            <input type="submit" value="Sign up">
+            <input type="button" value="Say Hello">
+            <input type="Reset" value="Restore Default">
+            <br>
+        </fieldset>
+       
+        <br>
+
+        <fieldset>
+            <legend> Send Option </legend>
+            <select name="time">
+                <optgroup label="Near Time">
+                    <option value=1> Now </option>
+                    <option value=2> Tomorrow </option>
+                    <option value=3> Week </option>
+                </optgroup>
+                <optgroup label="Far Time">
+                    <option value=4> year </option>
+                    <option value=5> 10 years </option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

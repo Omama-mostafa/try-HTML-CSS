@@ -1,0 +1,33 @@
+*
+{
+    background-color: #eee
+}
+div.block1
+{
+    position : absolute;
+    top : 20px;
+    left : 20px;
+    width : 400px;
+    height : 200px;
+    padding : 10px;
+    letter-spacing: 3px;
+    text-align : center;
+    font-size : 200%;
+    border-left: 1px solid #c93;
+    border-bottom: 5px solid #c93;
+}
+div.block2
+{
+    position : absolute;
+    top : 250px;
+    left : 450px;
+    width : 400px;
+    height : 200px;
+    padding : 10px;
+    letter-spacing: 3px;
+    text-align : center;
+    font-size : 200%;
+    border-left: 1px solid #c93;
+    border-bottom: 5px solid #c93;
+
+}

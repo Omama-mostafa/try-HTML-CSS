@@ -1,0 +1,36 @@
+header
+{
+    background-color : #333;
+    color: #FFF;
+    padding : 20px
+}
+main
+{
+    background-color: #FFF;
+    padding: 10px;
+}
+main p 
+{
+    text-align : center;
+}
+main p span
+{
+    font-weight: bold;
+    color : #666;
+}
+.post
+{
+    background-color: #666;
+    padding : 20px;
+}
+aside
+{
+    background-color: #666;
+    padding : 20px;
+}
+.links
+{
+    background-color: #EEE;
+    margin: 20px;
+    padding: 10px;
+}

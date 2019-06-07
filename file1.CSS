@@ -1,0 +1,108 @@
+*
+{
+    margin : 0;
+    padding : 0;
+}
+body
+{
+    font-family: Arial;
+}
+.h1
+{
+    background : #333;
+    color : #DDD;
+    padding : 15px;
+    text-align: center;
+}
+
+nav
+{
+    background-color: #DDD;
+}
+nav ul li
+{
+    display: inline-block;
+}
+nav ul li:after
+{
+    content: "|";
+}
+
+nav ul li:last-child:after
+{
+    content:"";
+}
+
+main
+{
+    background-color: #FFF;
+    padding: 10px;
+}
+main p 
+{
+    text-align : center;
+}
+main p span
+{
+    font-weight: bold;
+    color : #666;
+}
+article
+{
+    padding : 20px;
+    background-color : #f6f6f6;
+    border : 1px solid #CCC;
+    margin: 20px;
+}
+article header
+{
+    background-color: #e2e2e2;
+    padding: 10px;
+}
+article section
+{
+    padding : 10px;
+}
+
+aside section ul
+{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+aside section li
+{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.post
+{
+    background-color: #666;
+    padding : 20px;
+}
+aside
+{
+    background-color: #DDD;
+    padding : 20px;
+}
+.links
+{
+    background-color: #EEE;
+    margin: 20px;
+    padding: 10px;
+    border : 1px solid #CCC; 
+}
+aside section h3
+{
+    background-color: #d1d1d1;
+    padding: 10px;
+    margin-bottom:  10px;
+}
+footer
+{
+    background-color : #333;
+    color : #DDD;
+    text-align : center;
+    padding: 10px;
+
+}
